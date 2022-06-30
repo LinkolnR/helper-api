@@ -15,7 +15,7 @@ export class ArrayController {
         const {y,z,w} = req.query
   
       return res.status(200).json({
-        result: this.#service.getLista((array),Boolean(y),String(z),Boolean(w)),
+        result: this.#service.getLista((array),String(y),String(z),String(w)),
       });
     };
   }
