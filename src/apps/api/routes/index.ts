@@ -1,3 +1,3 @@
 import mathRouter from "./MathRoute";
-
-export default [mathRouter];
+import LoremRouter from "./LoremRoute"
+export default [mathRouter,LoremRouter];

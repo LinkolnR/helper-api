@@ -1,5 +1,4 @@
 export class LoremIpsumService {
-  constructor() {}
   palavras = [
       'Jelly',
       'beans',
@@ -104,7 +103,9 @@ export class LoremIpsumService {
       'macaroon.',
       'Tart'
   ]
-  getLoremIpsum = (numeroDePalavras : number) => {
+  getLoremIpsum = (
+    numeroDePalavras : number
+    ) => {
       if (numeroDePalavras> 0){
           let j 
           j = 1
@@ -112,7 +113,6 @@ export class LoremIpsumService {
           lorem = ''
           while (j <= numeroDePalavras){
               var aleatorio = Math.floor(Math.random() * this.palavras.length);
-              console.log(aleatorio)
               lorem += this.palavras[aleatorio]
               if (j!= numeroDePalavras){
               lorem += " "

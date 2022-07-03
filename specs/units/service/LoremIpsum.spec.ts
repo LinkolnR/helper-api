@@ -41,7 +41,7 @@ describe('Teste do Lorem Ipsum', () => {
   
     it('Deve retornar uma string com cem(100) palavra, aqui vamos dar split e olhar para o tamanho', () => {
       const resultado  = _service.getLoremIpsum(100)
-      let tamanho = resultado.split(" ").length
+      let tamanho = resultado.split(" ").length 
       expect(tamanho).toEqual(100)
     })
   })
