@@ -24,7 +24,7 @@ export class CpfService {
     }
 
     validaCpf = (cpf: string) =>{
-        let j = 0 
+        let j = 1
         let dv = 0
         for (let index = 0; index < 9; index++) {
             if (j ==4){
@@ -42,4 +42,5 @@ export class CpfService {
         }
         return false
     }
+
 }
