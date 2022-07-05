@@ -1,0 +1,7 @@
+Como cpf tem 9 dígitos pensei em separar em 3 grupos de 3 
+123|456|789 
+1 + 2x2 + 3x3 + | 4 + 5x2 + 6x3 | + 7 + 8x2 + 9x3 = 96 <- digito verificador.
+Então um cpf válido é:
+123456789-96 
+
+
